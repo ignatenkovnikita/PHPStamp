@@ -21,6 +21,11 @@ class Result
         return $this->output;
     }
 
+    public function getDocument()
+    {
+        return $this->document;
+    }
+
     public function download($fileName = null)
     {
         if ($fileName === null) {
